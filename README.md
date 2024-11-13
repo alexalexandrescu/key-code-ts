@@ -18,7 +18,7 @@ This library was inspired by the following projects, which offer similar functio
 Install the package via npm:
 
 ```bash
-npm install key-code-ts
+npm install keyboard-code-enum
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install key-code-ts
 Import the `Code` enum and/or the `CodeUtils` utilities as needed:
 
 ```typescript
-import { Code, CodeUtils } from 'key-code-ts';
+import { Code, CodeUtils } from 'keyboard-code-enum';
 ```
 
 ### Example: Handling Keyboard Events
@@ -56,7 +56,7 @@ document.addEventListener('keydown', (event) => {
 The `Code` enum contains all standard keyboard event `code` values (e.g., `KeyA`, `ArrowUp`, `Enter`, `F1`, etc.), based on the MDN documentation.
 
 ```typescript
-import { Code } from 'key-code-ts';
+import { Code } from 'keyboard-code-enum';
 
 console.log(Code.KeyA); // Outputs: "KeyA"
 ```

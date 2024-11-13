@@ -1,6 +1,6 @@
 {
-  "name": "key-code-ts",
-  "version": "0.0.1",
+  "name": "keyboard-code-enum",
+  "version": "0.0.2",
   "description": "A TypeScript enum for handling keyboard event codes (in favor of keyCode or key).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
