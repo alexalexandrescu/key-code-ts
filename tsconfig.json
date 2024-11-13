@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", // Target ECMAScript 6 for async/await support
+    "module": "CommonJS", // Module format for Node.js
+    "moduleResolution": "Node",
+    "declaration": true, // Generate .d.ts files for TypeScript consumers
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Source directory
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow default imports from CommonJS
+    "forceConsistentCasingInFileNames": true, // Enforce consistent file casing
+    "skipLibCheck": true // Skip library checking for faster builds
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
